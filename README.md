@@ -1,8 +1,8 @@
 <img width="500" height="184" alt="image" src="https://github.com/user-attachments/assets/a66fd358-e45a-4eda-8763-e2e4cf027cc9" />
 
-Repositorio de miembros de la Plataforma Única de Interoperabilidad del Estado Dominicano
+#Repositorio de miembros de la Plataforma Única de Interoperabilidad del Estado Dominicano
 
-INTRODUCCIÓN A XROAD Y A LA PLATAFORMA ÚNICA DE INTEROPERABILIDAD
+##INTRODUCCIÓN A XROAD Y A LA PLATAFORMA ÚNICA DE INTEROPERABILIDAD
 
 X-Road es un marco de interoperabilidad orientado a garantizar la comunicación segura y confiable entre sistemas de distintas instituciones en entornos gubernamentales y empresariales. Su propósito principal es superar los retos que implica la integración entre entidades, ofreciendo un mecanismo estandarizado para el intercambio de datos, reduciendo costos de desarrollo, evitando duplicidad de esfuerzos y fortaleciendo la seguridad en los procesos de intercambio de información.
 
