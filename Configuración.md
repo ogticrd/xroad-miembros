@@ -2,3 +2,66 @@
 
 ## Antes de iniciar
 Asegúrese de haber completado el proceso de **instalación** correctamente y de haber seguido la **guía técnica de preparación para la configuración**.
+
+## Acceso inicial
+
+1. Abra un navegador web e ingrese a la interfaz del Servidor de Seguridad en la siguiente ruta: `https://<subdominio>:4000`
+
+- El puerto **4000** es el que viene configurado por defecto.  
+- Si utilizó otro puerto en la instalación, debe ingresar ese.
+
+2. Inicie sesión utilizando las credenciales configuradas en su archivo `.env`:  
+- **XROAD_ADMIN_USER**  
+- **XROAD_ADMIN_PASSWORD**  
+<img width="1869" height="919" alt="image" src="https://github.com/user-attachments/assets/5a8e67e8-b0fc-472d-bb95-0a303aa09493" />
+
+## Cargar Ancla de Configuración
+
+1. Localice el archivo XML llamado **`configuration_anchor_DO`**, disponible en el repositorio o carpeta de instalación.  
+2. Desde la interfaz web, haga clic en **Buscar**, seleccione el archivo y confirme la carga.  
+
+> Nota: Si el mensaje de confirmación queda cargando y no continúa, probablemente exista un problema de comunicación entre su servidor y el **Servidor Central**. Verifique conectividad antes de continuar.
+<img width="1872" height="1011" alt="image" src="https://github.com/user-attachments/assets/b0e76445-1527-4144-a1fb-85b3fdb9e1af" />
+
+## Registro de Miembro
+
+Complete el formulario con los siguientes campos:
+
+- **Clase de miembro:** Seleccione `GOB` para entidades estatales.  
+- **Código de miembro:** Ingrese las siglas oficiales de su institución.  
+- Ejemplo:  
+ - Nombre: Junta Central Electoral → Siglas: `JCE`  
+ - Nombre: Ministerio de Salud Pública → Siglas: `MSP`  
+
+> Nota: Si el nombre de la institución no aparece automáticamente, el registro podría fallar. En ese caso, comuníquese a: `interoperabilidad@ogtic.gob.do`.  
+
+- **Código del servidor de seguridad:** Ingrese `SS` seguido del número de orden de su servidor.  
+- Ejemplo: `SS1`, `SS2`, `SS3`.  
+<img width="1871" height="1007" alt="image" src="https://github.com/user-attachments/assets/408c7af4-a4d6-48c6-971c-fddaae379040" />
+
+## Configuración del PIN
+
+Ingrese el **PIN de seguridad** definido en el archivo `.env` (variable `XROAD_TOKEN_PIN`).  
+Debe repetir el PIN en ambos campos y luego presionar **Continuar**.  
+
+> Es importante que el PIN coincida exactamente con el configurado durante la instalación, ya que garantiza el acceso seguro a las llaves y certificados.
+
+<img width="1869" height="1000" alt="image" src="https://github.com/user-attachments/assets/3ad1e1c3-e120-47d5-a607-7d8305006bbe" />
+
+## Generación de Llaves y Certificados
+
+1. Vaya a la sección **Keys and Certificates**.  
+2. Localice el **Soft Token** (almacén de llaves), luego se debe dar click en el boton a la derecha del Soft Token que dice “Log in” y colocar el PIN. Si dice “Log out” es porque actuamente el Soft Token se encuentra listo para ser utilizado.
+
+<img width="1872" height="1003" alt="image" src="https://github.com/user-attachments/assets/7489ec66-1653-4695-96e0-2865b5e603ca"/>
+
+
+
+
+
+
+
+
+
+
+ 
