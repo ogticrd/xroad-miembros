@@ -68,3 +68,84 @@ Antes de iniciar el proceso de instalación del Servidor de Seguridad X-Road, la
   `443` (interfaz web de administración)
 
   `4000` (interfaz de configuración técnica)
+
+  ## INSTALACIÓN
+
+### Instalación de Docker y Docker Compose
+
+Instalaremos Docker a través de snap:
+
+```sh 
+sudo snap install docker
+```
+Nota: Verifique que el servicio de Docker quede activo ejecutando:
+```sh
+docker --version
+```
+
+### Descarga del repositorio
+
+Clone el repositorio oficial con:
+```sh
+...
+```
+Acceda al directorio descargado:
+```sh
+cd xroad-miembros
+```
+### Configuración inicial
+
+1. Cree el archivo de configuración a partir de la plantilla incluida:
+```sh
+cp .env.example .env
+```
+2. Edite el archivo `.env` con el editor de su preferencia:
+```sh
+nano .env
+```
+En este archivo deberá configurar al menos lo siguiente:
+
+- PIN del token software.
+
+- Password del usuario administrador.
+
+### Despliegue del Servidor de Seguridad
+
+Ejecute el siguiente comando para iniciar el despliegue:
+```sh
+sudo docker-compose up -d
+```
+Si todo se ejecuta correctamente, podrá acceder a la interfaz web del Servidor de Seguridad desde un navegador en: `https://<subdominio>:4000`
+
+### Próximos pasos
+
+Una vez completada la instalación, debe proceder con la configuración del Servidor de Seguridad y su inclusión como miembro de la plataforma X-Road.
+
+Continúe con la Guía de Configuración de Miembro
+
+## NOTAS ADICIONALES
+
+- Si después de completar la instalación no puede visualizar la interfaz de inicio de sesión en el navegador (indicada en el último paso de la guía), diríjase a la sección de **Problemas Frecuentes**.  
+- En caso de necesitar revertir todo el proceso de instalación, consulte la guía de **Desinstalación**.  
+
+---
+
+## Desinstalación
+
+Si desea revertir la instalación, debe eliminar tanto el contenedor desplegado como los volúmenes que almacenan los archivos de configuración y los datos recopilados por la plataforma.  
+
+1. Localice el directorio donde descargó el repositorio al momento de la instalación.  
+2. Ingrese a ese directorio y verifique que exista el archivo `docker-compose.yml`.  
+3. Ejecute el siguiente comando para eliminar todo:  
+
+```bash
+sudo docker-compose down -v
+```
+
+
+
+
+
+
+
+
