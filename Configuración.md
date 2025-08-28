@@ -53,7 +53,9 @@ Debe repetir el PIN en ambos campos y luego presionar **Continuar**.
 1. Vaya a la sección **Keys and Certificates**.  
 2. Localice el **Soft Token** (almacén de llaves), luego se debe dar click en el boton a la derecha del Soft Token que dice “Log in” y colocar el PIN. Si dice “Log out” es porque actuamente el Soft Token se encuentra listo para ser utilizado.
 
-<img width="1872" height="1003" alt="image" src="https://github.com/user-attachments/assets/7489ec66-1653-4695-96e0-2865b5e603ca"/>
+<img width="1872" height="1003" alt="image" src="https://github.com/user-attachments/assets/7489ec66-1653-4695-96e0-2865b5e603ca"/> 
+
+
 
 
 
