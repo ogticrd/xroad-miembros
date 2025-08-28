@@ -48,6 +48,14 @@ Debe repetir el PIN en ambos campos y luego presionar **Continuar**.
 
 <img width="1869" height="1000" alt="image" src="https://github.com/user-attachments/assets/3ad1e1c3-e120-47d5-a607-7d8305006bbe" />
 
+## Configuración del servicio de sellado de tiempo
+
+1. Elija Configuración -> Parámetros del sistema -> Servicios de marca de tiempo -> Agregar.
+2. Elija el servicio de marca de tiempo de la lista.
+3. Presione Agregar.
+
+   <img width="1280" height="689" alt="image" src="https://github.com/user-attachments/assets/9c0549bf-1153-4d5c-903a-2066694b1027" />
+
 ## Generación de Llaves y Certificados
 
 1. Vaya a la sección **Keys and Certificates**.  
@@ -55,6 +63,50 @@ Debe repetir el PIN en ambos campos y luego presionar **Continuar**.
 
 <img width="1872" height="1003" alt="image" src="https://github.com/user-attachments/assets/7489ec66-1653-4695-96e0-2865b5e603ca"/> 
 
+### Crear llave de autenticación
+- Haga clic en **Add Key**.  
+- Defina un *label* (ejemplo: `AUTH`).  
+- En **Usage** seleccione: `Authentication`.  
+- En **Server DNS Name**, coloque el subdominio (ej: `ss1.institucion.gob.do`).  
+- En **Country Code**, coloque `DO`.  
+- Genere el CSR (**Generate CSR**) y descárguelo.  
+<img width="1920" height="1038" alt="image" src="https://github.com/user-attachments/assets/92ab50b4-c6bf-437f-9cd7-825a1d34ccb1" />
+
+### Crear llave de firma
+- Haga clic nuevamente en **Add Key**.  
+- Defina un *label* (ejemplo: `SIGN`).  
+- En **Usage** seleccione: `Signing`.  
+- En **Client**, seleccione la opción disponible.  
+- En **Country Code**, coloque `DO`.  
+- Genere el CSR (**Generate CSR**) y descárguelo.
+
+3. Comprima ambos archivos CSR en un **.zip**.  
+4. Envíe el archivo a:  
+- `interoperabilidad@ogtic.gob.do`  
+- Copia a: `kevin.jimenez@ogtic.gob.do`  
+
+5. Espere la devolución de los certificados firmados por la misma vía.
+
+## Importación de Certificados
+
+1. Una vez recibidos los certificados firmados, impórtelos en la misma sección **Keys and Certificates**.
+   <img width="1867" height="1006" alt="image" src="https://github.com/user-attachments/assets/2d10e089-ff32-4436-b10e-0a7920b125b6" />
+
+3. Active el **certificado de autenticación**.
+  <img width="1863" height="1000" alt="image" src="https://github.com/user-attachments/assets/2cc9138e-5218-4f37-8210-c1ec0193bed3" />
+
+5. Registre el servidor haciendo clic en **Register** y colocando el subdominio (ej: `ss1.institucion.gob.do`).
+   <img width="1872" height="1005" alt="image" src="https://github.com/user-attachments/assets/adc46b91-25dd-4d87-9116-a2a41944140d" />
+
+
+> Este paso envía la solicitud al **Servidor Central**, donde un operador verificará y aprobará el registro.  
+
+
+
+## Conclusión
+
+En este punto ha completado la **configuración general** de su Servidor de Seguridad.  
+A partir de aquí, podrá comenzar a **registrar subsistemas y servicios** según las necesidades de su institución.  
 
 
 
