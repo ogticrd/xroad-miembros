@@ -39,15 +39,19 @@ Ejemplo no permitido: `PROYECTO*&$#@!`
 
 1. Acceda a la pestaña **Clients**.  
 2. En la primera fila, encontrará su institución como cliente. Haga clic en **Add Subsystem**.  
+<img width="1870" height="1002" alt="image" src="https://github.com/user-attachments/assets/11a24a31-0a92-459b-8152-81d787d1da36" />
+
 3. Complete el campo **Subsystem Code** con el nombre del subsistema.  
    - Debe estar en **MAYÚSCULAS**.  
    - No debe contener espacios ni caracteres especiales.  
-<img width="1869" height="1002" alt="image" src="https://github.com/user-attachments/assets/c97d91ed-cdf8-41c4-b6b5-e2f15dfa67cd" />
+<img width="1280" height="687" alt="image" src="https://github.com/user-attachments/assets/9c652978-09c4-4de6-adb5-09842b3a3a0d" />
+
 
 
 4. Verifique que la opción de **registrar subsistema** esté activa.  
 5. Haga clic en **Add Subsystem**.  
-<img width="1871" height="999" alt="image" src="https://github.com/user-attachments/assets/c04e6209-dfc3-41fc-87e1-a23761230575" />
+<img width="1871" height="1004" alt="image" src="https://github.com/user-attachments/assets/89cfb419-8a95-4677-9730-b0637b5b777c" />
+
 
 ---
 
