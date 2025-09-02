@@ -79,4 +79,4 @@ Ejemplo no permitido: `PROYECTO*&$#@!`
 
 ## Próximo paso
 
-Una vez creada la estructura de **subsistemas**, puede continuar con la **creación de servicios** dentro de ellos.  
+Una vez creada la estructura de **subsistemas**, puede continuar con la [**creación de servicios**](/Crear_servicio.md) dentro de ellos.  
