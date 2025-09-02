@@ -17,7 +17,7 @@ Asegúrese de haber completado el proceso de **instalación** correctamente y de
 
 ## Cargar Ancla de Configuración
 
-1. Localice el archivo XML llamado **`configuration_anchor_DO`**, disponible en el repositorio o carpeta de instalación.  
+1. Localice el archivo XML llamado [ancla de configuración](/configuration_anchor_DO_internal_UTC_2023-06-13_22_02_45.xml), disponible en el repositorio o carpeta de instalación.  
 2. Desde la interfaz web, haga clic en **Buscar**, seleccione el archivo y confirme la carga.  
 
 > Nota: Si el mensaje de confirmación queda cargando y no continúa, probablemente exista un problema de comunicación entre su servidor y el **Servidor Central**. Verifique conectividad antes de continuar.
@@ -111,7 +111,7 @@ Debe repetir el PIN en ambos campos y luego presionar **Continuar**.
 ## Conclusión
 
 En este punto ha completado la **configuración general** de su Servidor de Seguridad.  
-A partir de aquí, podrá comenzar a **registrar subsistemas y servicios** según las necesidades de su institución.  
+A partir de aquí, podrá comenzar a [**registrar subsistemas y servicios**](/Subsistemas.md) según las necesidades de su institución.  
 
 
 
