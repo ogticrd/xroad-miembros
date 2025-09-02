@@ -87,7 +87,7 @@ docker --version
 
 Clone el repositorio oficial con:
 ```sh
-...
+https://github.com/ogticrd/xroad-miembros.git
 ```
 Acceda al directorio descargado:
 ```sh
@@ -119,9 +119,9 @@ Si todo se ejecuta correctamente, podrá acceder a la interfaz web del Servidor 
 
 ### Próximos pasos
 
-Una vez completada la instalación, debe proceder con la configuración del Servidor de Seguridad y su inclusión como miembro de la plataforma X-Road.
+Una vez completada la instalación, debe proceder con la [configuración del Servidor de Seguridad](/Configuración.md) y su inclusión como miembro de la plataforma X-Road.
 
-Continúe con la Guía de Configuración de Miembro
+Continúe con la [Guía de Configuración de Miembro](/Configuración.md)
 
 ## NOTAS ADICIONALES
 
