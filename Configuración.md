@@ -76,7 +76,9 @@ Debe repetir el PIN en ambos campos y luego presionar **Continuar**.
 - Haga clic nuevamente en **Add Key**.  
 - Defina un *label* (ejemplo: `SIGN`).  
 - En **Usage** seleccione: `Signing`.  
-- En **Client**, seleccione la opción disponible.  
+- En **Client**, seleccione la opción disponible.
+  <img width="1869" height="1006" alt="image" src="https://github.com/user-attachments/assets/b0cff9c2-3010-40e2-b019-5868739471f2" />
+  
 - En **Country Code**, coloque `DO`.  
 - Genere el CSR (**Generate CSR**) y descárguelo.
 
