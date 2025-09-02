@@ -99,6 +99,9 @@ Debe repetir el PIN en ambos campos y luego presionar **Continuar**.
 
 5. Registre el servidor haciendo clic en **Register** y colocando el subdominio (ej: `ss1.institucion.gob.do`).
    <img width="1872" height="1005" alt="image" src="https://github.com/user-attachments/assets/adc46b91-25dd-4d87-9116-a2a41944140d" />
+   
+6. La solicitud de registro del certificado de autenticación se envía al servidor central. El certificado pasa al registro estatal en curso.
+   <img width="1872" height="1004" alt="image" src="https://github.com/user-attachments/assets/3981681a-c7c3-45cc-ac40-b2a9134e4748" />
 
 
 > Este paso envía la solicitud al **Servidor Central**, donde un operador verificará y aprobará el registro.  
