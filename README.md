@@ -2,6 +2,20 @@
 
 # Repositorio de miembros de la Plataforma Única de Interoperabilidad del Estado Dominicano
 
+### ÍNDICE
+1. [Introducción](/INTRODUCCIÓN-A-XROAD-Y-A-LA-PLATAFORMA-ÚNICA-DE-INTEROPERABILIDAD)
+2. [Requisitos](/REQUISITOS-PREVIOS-PARA-LA-INSTALACIÓN-DEL-SERVIDOR-DE-SEGURIDAD)
+3. [Instalación](/INSTALACIÓN)
+4. [Configuración](/Configuración.md)
+5. [Crear subsistema](/Subsistemas.md)
+6. [Crear servicio](/Crear_servicio.md)
+7. [Ortorgar acceso](/Ortorgar_acceso.md)
+8. [Consumir servicio](/Consumo_servicio.md)
+9. [Notas adicionales](/NOTAS-ADICIONALES)
+10. [Desinstalación](/Desinstalación)
+
+
+
 ## INTRODUCCIÓN A XROAD Y A LA PLATAFORMA ÚNICA DE INTEROPERABILIDAD
 
 X-Road es un marco de interoperabilidad orientado a garantizar la comunicación segura y confiable entre sistemas de distintas instituciones en entornos gubernamentales y empresariales. Su propósito principal es superar los retos que implica la integración entre entidades, ofreciendo un mecanismo estandarizado para el intercambio de datos, reduciendo costos de desarrollo, evitando duplicidad de esfuerzos y fortaleciendo la seguridad en los procesos de intercambio de información.
