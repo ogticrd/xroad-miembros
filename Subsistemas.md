@@ -54,7 +54,24 @@ Ejemplo no permitido: `PROYECTO*&$#@!`
 
 
 ---
+# Configuración del Protocolo de Comunicación
 
+Al exponer servicios a través de la Plataforma de Interoperabilidad, se pueden utilizar los siguientes enfoques para el protocolo de comunicación:
+
+## Opción 1: Cambiar el protocolo a **HTTP**
+Esta es la alternativa más sencilla.  
+Solo requiere modificar la configuración para que el subsistema utilice **HTTP** en lugar de **HTTPS**.
+
+---
+
+## Opción 2: Mantener el protocolo **HTTPS**
+Si desea mantener la comunicación en **HTTPS**, puede:  
+1. Generar un certificado (puede ser **autofirmado**).  
+2. Cargar dicho certificado en la configuración del subsistema.  
+3. Utilizar el mismo certificado en todas las llamadas que se realicen hacia ese subsistema.
+
+---
+   
 ## Registro en el Servidor Central
 
 - Registrar el subsistema en el Servidor Central es **opcional al inicio**, pero **indispensable para interoperar**.  
